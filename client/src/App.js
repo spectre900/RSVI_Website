@@ -1,7 +1,7 @@
 import Header from './Components/Header/Header';
-import Mission from './Components/Mission/Mission';
-import Journey from './Components/Journey/Journey';
-import Rehabilitation from './Components/Rehabilitation/Rehabilitation';
+import Rehabilitation from './Components/Home/Rehabilitation';
+import Mission from './Components/Home/Mission';
+import Journey from './Components/Home/Journey';
 
 function App() {
   return (

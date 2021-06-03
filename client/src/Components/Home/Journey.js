@@ -1,11 +1,11 @@
-import eyeIcon from './Images/eye.png';
-import bookIcon from './Images/book.png';
-import mikeIcon from './Images/mike.png';
-import deviceIcon from './Images/device.png';
-import healthIcon from './Images/health.png';
-import internIcon from './Images/intern.png';
-import impairedIcon from './Images/impaired.png';
-import volunteerIcon from './Images/volunteer.png';
+import eyeIcon from './Images/Icons/eye.png';
+import bookIcon from './Images/Icons/book.png';
+import mikeIcon from './Images/Icons/mike.png';
+import deviceIcon from './Images/Icons/device.png';
+import healthIcon from './Images/Icons/health.png';
+import internIcon from './Images/Icons/intern.png';
+import impairedIcon from './Images/Icons/impaired.png';
+import volunteerIcon from './Images/Icons/volunteer.png';
 
 import CountUp from 'react-countup';
 import React, { Component } from 'react';
@@ -53,7 +53,6 @@ class Journey extends Component {
     render() {
         return (
             <Container fluid className={styles.holder}>
-                <Row className={styles.gap} />
                 <Row className={styles.text}>
                     Over the years, we have shared our journey with...
                 </Row>
@@ -128,7 +127,7 @@ class Journey extends Component {
                         <div className={styles.progress} style={{ width: `${this.state.progress}%`}} />
                     </div>
                 </Row>
-                <Row>
+                <Row className={styles.years}>
                     <Col className={styles.year}>
                         2012
                     </Col>
@@ -142,7 +141,6 @@ class Journey extends Component {
                         2021
                     </Col>
                 </Row>
-                <Row className={styles.gap} />
             </Container>
         );
     }
