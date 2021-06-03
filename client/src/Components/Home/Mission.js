@@ -7,8 +7,8 @@ import styles from './Mission.module.css';
 class Mission extends Component {
     render() {
         return (
-            <Container fluid>
-                <Row className={styles.body}>
+            <Container fluid className={styles.holder}>
+                <Row className={styles.content}>
                     <p className={styles.heading}>
                         Our Mission
                     </p>

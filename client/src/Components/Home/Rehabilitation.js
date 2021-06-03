@@ -2,13 +2,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Row, Container} from 'react-bootstrap';
 
 import styles from './Rehabilitation.module.css';
-import logo from './Images/rsvi.png';
+import logo from './Images/RSVI/rsvi.jpg';
 
 function Rehabilitation() {
 	return(
 		<Container fluid>
 			<Row className={styles.content}>
-				<img src = {logo} className = {styles.logo} />
+				<img src = {logo} className = {styles.logo} alt='rsvi logo'/>
 				<p className={styles.heading}>
 					Rehabilitation Society of the Visually Impaired
 				</p>

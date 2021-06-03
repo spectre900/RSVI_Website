@@ -1,19 +1,19 @@
 .icon{
-    height: 100px;
+    height: max(10vh,70px);
 }
 
 .holder{
+    margin-bottom: 100px;
+    
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
     background-size: cover;
-    background-image: url('./Images/background.png');
+    background-image: url('./Images/Backgrounds/green.png');
 }
 
 .text{
     margin: 0;
-    padding: 45px;
-    font-size: 40px;
+    padding: 4vh;
+    font-size: max(4vh, 30px);
     font-weight: bolder;
     justify-content: center;
     color: rgb(100, 100, 100);
@@ -26,14 +26,14 @@
 
 .caption{
     color: black;
-    font-size: 20px;
+    font-size: max(2vh, 15px);
     font-weight: bold;
 }
 
 .counter{
     color: black;
     display: block;
-    font-size: 40px;
+    font-size: max(4vh, 30px);
 }
 
 .progressbar .progress {
@@ -50,12 +50,16 @@
     border-radius: 4px;
     margin-left: 11%;
     margin-right: 11%;
-    margin-bottom: 20px;
+    margin-bottom: 1vh;
     background-color: lightgrey;
+}
+
+.years{
+    padding-bottom: 3vh;
 }
 
 .year{
     color: black;
-    font-size: 25px;
+    font-size: max(3vh,20px);
     font-weight: bold;
 }
