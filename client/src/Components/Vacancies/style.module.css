@@ -47,7 +47,7 @@
 }
 
 .ban {
-  background-color: yellow;
+  background-image: url("./Images/background.png");
   margin-bottom: 4%;
   padding: 2%;
   text-align: center;
