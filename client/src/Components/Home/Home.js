@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 
-import Rehabilitation from './Rehabilitation';
-import Mission from './Mission';
-import Journey from './Journey';
+import Rehabilitation from './Rehabilitation/Rehabilitation';
+import Capsule from './Capsule/Capsule';
+import Mission from './Mission/Mission';
+import Journey from './Journey/Journey';
 
 class Home extends Component {
     render() {
@@ -11,6 +12,7 @@ class Home extends Component {
                 <Rehabilitation />
                 <Mission />
                 <Journey />
+                <Capsule />
             </div>
         );
     }
