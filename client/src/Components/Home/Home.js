@@ -6,6 +6,7 @@ import Journey from './Journey';
 import Success from './Success';
 import {SliderData} from './SliderData';
 import ImageSlider from './ImageSlider';
+import Work from './WorksComp/Work';
 
 
 class Home extends Component {
@@ -14,8 +15,9 @@ class Home extends Component {
             <div>
                 <ImageSlider slides={SliderData}/>
                 <Rehabilitation />
-                <Mission />
+                <Work />
                 <Journey />
+                <Mission />
                 <Success/>
                 <Collaboration/>
             </div>
