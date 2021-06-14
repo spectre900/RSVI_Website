@@ -4,9 +4,10 @@ import Internship from "./Components/Internship/Internship";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Footer from './Components/Footer/Footer';
 import WhatWeDo  from './Components/Home/WorksComp/WhatWeDo';
+import AboutUs from './Components/AboutUs/AboutUs';
 
 
-function App() {
+/* function App() {
   return (
     <Router>
     <div>
@@ -19,7 +20,17 @@ function App() {
     </div>
     </Router>
   );
+} */
+
+function App() {
+  return (
+    <Router>
+    <div>
+      <Header />
+      <AboutUs />
+      <Footer />
+    </div>
+    </Router>
+  );
 }
-
-
 export default App;
