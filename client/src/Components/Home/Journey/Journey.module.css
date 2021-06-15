@@ -1,5 +1,5 @@
 .icon{
-    height: max(10vh,70px);
+    height: max(5vw,70px);
 }
 
 .holder{
@@ -13,7 +13,7 @@
 .text{
     margin: 0;
     padding: 4vh;
-    font-size: max(4vh, 30px);
+    font-size: max(2vw, 30px);
     font-weight: bolder;
     justify-content: center;
     color: rgb(100, 100, 100);
@@ -26,14 +26,14 @@
 
 .caption{
     color: black;
-    font-size: max(2vh, 15px);
+    font-size: max(1.2vw, 15px);
     font-weight: bold;
 }
 
 .counter{
     color: black;
     display: block;
-    font-size: max(4vh, 30px);
+    font-size: max(2vw, 30px);
 }
 
 .progressbar .progress {
@@ -60,6 +60,6 @@
 
 .year{
     color: black;
-    font-size: max(3vh,20px);
+    font-size: max(1.6vw,20px);
     font-weight: bold;
 }

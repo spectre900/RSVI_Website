@@ -19,7 +19,7 @@
 }
 
 .heading{
-    font-size: max(7vh,60px);
+    font-size: max(3.5vw,45px);
     font-weight: bold;
     color: rgb(70, 70, 70);
 }
@@ -33,7 +33,7 @@
 }
 
 .para1, .para2{
-    font-size: max(3vh,25px);
+    font-size: max(1.65vw,20px);
     font-style: normal;
 }
 
@@ -43,12 +43,13 @@
     }
 
     .heading{
-        font-size: 50px;
+        font-size: 45px;
         text-align: center;
     }
 
     .para1, .para2{
         width: 100%;
-        text-align: center;
+        text-align: justify;
+        text-justify: distribute;
     }
 }

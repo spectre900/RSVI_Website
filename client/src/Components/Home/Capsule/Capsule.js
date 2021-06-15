@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import icon from './Images/Icons/picture.png';
+import icon from './Images/Icons/capsule.png';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Row, Col, Container, Button} from 'react-bootstrap';
