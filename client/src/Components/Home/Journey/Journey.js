@@ -1,11 +1,11 @@
-import eyeIcon from './Images/Icons/eye.png';
-import bookIcon from './Images/Icons/book.png';
-import mikeIcon from './Images/Icons/mike.png';
-import deviceIcon from './Images/Icons/device.png';
-import healthIcon from './Images/Icons/health.png';
-import internIcon from './Images/Icons/intern.png';
-import impairedIcon from './Images/Icons/impaired.png';
-import volunteerIcon from './Images/Icons/volunteer.png';
+import { eyeIcon } from '../Links';
+import { bookIcon } from '../Links';
+import { mikeIcon } from '../Links';
+import { deviceIcon } from '../Links';
+import { healthIcon } from '../Links';
+import { internIcon } from '../Links';
+import { impairedIcon } from '../Links';
+import { volunteerIcon } from '../Links';
 
 import CountUp from 'react-countup';
 import React, { Component } from 'react';

@@ -6,10 +6,7 @@ import Footer from './Components/Footer/Footer';
 import WhatWeDo  from './Components/Home/WorksComp/WhatWeDo';
 import AboutUs from './Components/AboutUs/AboutUs';
 
-import React, { Component } from 'react'
-
-
-/* function App() {
+function App() {
   return (
     <Router>
     <div>
@@ -22,7 +19,9 @@ import React, { Component } from 'react'
     </div>
     </Router>
   );
-} */
+}
+
+export default App;
 
 // function App() {
 //   return (
@@ -36,19 +35,3 @@ import React, { Component } from 'react'
 //   );
 // }
 // export default App;
-class App extends Component {
-  render() {
-    return (
-      <Router >
-          <div>
-            <Header />
-            <Home />
-            <Footer />
-          </div>
-      </Router>
-    )
-  }
-}
-
-export default App
-
