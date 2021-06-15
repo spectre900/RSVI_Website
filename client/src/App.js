@@ -6,6 +6,8 @@ import Footer from './Components/Footer/Footer';
 import WhatWeDo  from './Components/Home/WorksComp/WhatWeDo';
 import AboutUs from './Components/AboutUs/AboutUs';
 
+import React, { Component } from 'react'
+
 
 /* function App() {
   return (
@@ -22,15 +24,31 @@ import AboutUs from './Components/AboutUs/AboutUs';
   );
 } */
 
-function App() {
-  return (
-    <Router>
-    <div>
-      <Header />
-      <AboutUs />
-      <Footer />
-    </div>
-    </Router>
-  );
+// function App() {
+//   return (
+//     <Router>
+//     <div>
+//       <Header />
+//       <AboutUs />
+//       <Footer />
+//     </div>
+//     </Router>
+//   );
+// }
+// export default App;
+class App extends Component {
+  render() {
+    return (
+      <Router >
+          <div>
+            <Header />
+            <Home />
+            <Footer />
+          </div>
+      </Router>
+    )
+  }
 }
-export default App;
+
+export default App
+
