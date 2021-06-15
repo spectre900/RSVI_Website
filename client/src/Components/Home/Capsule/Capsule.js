@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import icon from './Images/Icons/picture.png';
+import { capsule_image } from '../Links';
+import { red_background } from '../Links';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Row, Col, Container, Button} from 'react-bootstrap';
@@ -12,7 +13,7 @@ class Capsule extends Component {
             <Container fluid className={styles.body}>
                 <Row>
                     <Col xl={6} className={styles.holder}>
-                        <img src={icon} className={styles.image}/>
+                        <img src={capsule_image} className={styles.image}/>
                     </Col>
                     <Col xl={6} className={styles.content}>
                         <p className={styles.heading}>
@@ -21,7 +22,7 @@ class Capsule extends Component {
                         <p className={styles.description}>
                             A small description about the Success Stories Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique pellentesque dignissim. Nam eget molestie tortor. Ut at placerat ex. Suspendisse potenti. 
                         </p>
-                        <Button className={styles.button}>
+                        <Button className={styles.button} >
                             Sign up for the podcast now!
                         </Button>
                     </Col>
