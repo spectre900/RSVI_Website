@@ -5,23 +5,26 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Footer from './Components/Footer/Footer';
 import WhatWeDo  from './Components/Home/WorksComp/WhatWeDo';
 import AboutUs from './Components/AboutUs/AboutUs';
+import ContactUs from './Components/GetInTouch/ContactUs';
 
-function App() {
-  return (
-    <Router>
-    <div>
-      <Header />
-      <Switch>
-         <Route exact path='/' component={Home} />
-         <Route path='/' component={WhatWeDo}/>
-      </Switch>
-      <Footer />
-    </div>
-    </Router>
-  );
-}
+import React, { Component } from 'react';
 
-export default App;
+// function App() {
+//   return (
+//     <Router>
+//     <div>
+//       <Header />
+//       <Switch>
+//          <Route exact path='/' component={Home} />
+//          <Route path='/' component={WhatWeDo}/>
+//       </Switch>
+//       <Footer />
+//     </div>
+//     </Router>
+//   );
+// }
+
+// export default App;
 
 // function App() {
 //   return (
@@ -35,3 +38,15 @@ export default App;
 //   );
 // }
 // export default App;
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <ContactUs />
+      </div>
+    )
+  }
+}
+
+export default App;
