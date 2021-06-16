@@ -1,5 +1,5 @@
 .content {
-  background-color: white;
+  /* background-color: white; */
   color: black;
 }
 
@@ -16,9 +16,16 @@
 .image {
   display: block;
   margin: 0 auto;
-  height: 150px;
-  width: 150px;
+  /* height: 150px;
+  width: 150px; */
+  height: 70%;
+  width: 70%;
   padding: 0;
+}
+
+.card, .ban {
+  background-image: url("./Images/background.png");
+  background-size: 100%;
 }
 
 .theBack {
@@ -51,7 +58,6 @@
 }
 
 .ban {
-  background-image: url("./Images/background.png");
   margin-bottom: 4%;
   padding: 2%;
   text-align: center;
@@ -95,6 +101,8 @@
   text-align: center;
   padding: 1%;
   line-height: 1.5;
+  font-weight: bolder;
+  font-size: 90%;
 }
 
 @media screen and (max-width: 767px) {
