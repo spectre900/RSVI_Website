@@ -20,7 +20,9 @@ class Capsule extends Component {
                             RVSI INFO-CAPSULE
                         </p>
                         <p className={styles.description}>
-                            A small description about the Success Stories Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique pellentesque dignissim. Nam eget molestie tortor. Ut at placerat ex. Suspendisse potenti. 
+                            RSVI aims to establish its presence and awareness through digital platforms,  
+                            launched RSVI Info Capsule, which is an audio initiative to spread learning and development 
+                            through digital platforms like whatsapp where Visually Impaired accross the globe are connected.
                         </p>
                         <Button className={styles.button} >
                             Sign up for the podcast now!
