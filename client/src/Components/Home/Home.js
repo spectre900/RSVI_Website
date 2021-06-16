@@ -10,18 +10,33 @@ import ImageSlider from './ImageSlider';
 import Work from './WorksComp/Work';
 
 
+// class Home extends Component {
+//     render() {
+//         return (
+//             <div>
+//                 <ImageSlider slides={SliderData}/>
+//                 <Rehabilitation />
+//                 <Work />
+//                 <Journey />
+//                 <Mission />
+//                 <Success/>
+//                 <Capsule />
+//                 <Collaboration/>
+//             </div>
+//         );
+//     }
+// }
+
+// export default Home;
+
 class Home extends Component {
     render() {
         return (
             <div>
-                <ImageSlider slides={SliderData}/>
                 <Rehabilitation />
-                <Work />
-                <Journey />
                 <Mission />
-                <Success/>
+                <Journey />
                 <Capsule />
-                <Collaboration/>
             </div>
         );
     }

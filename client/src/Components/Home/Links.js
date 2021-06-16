@@ -1,22 +1,22 @@
-const yellow_background = 'https://drive.google.com/uc?id=19CKc829ygCxs2ukFJtcsyJIqD7dIfQYP';
-const red_background = 'https://drive.google.com/uc?id=148JwyuEoFrz7-Pj-6p5VlZk7754Wjlix';
-const green_background = 'https://drive.google.com/uc?id=1RQIO0SvP_FlKc3xxjrDe5OPhQDaT02IN';
-const blue_background = 'https://drive.google.com/uc?id=1lVfrjckw4HX2dOJi0eS2futm667_lANr';
+const yellow_background = 'https://drive.google.com/uc?id=11ZKzHqt_GPZeXzHr50uHs9Rt39wSPh5A';
+const red_background = 'https://drive.google.com/uc?id=1tKJz1WQDY4CdXtPVnsIj4quqEkHMAjSL';
+const green_background = 'https://drive.google.com/uc?id=1f3ljJgoCfyHuDEKG6m_-D3_Yg4Jwbn04';
+const blue_background = 'https://drive.google.com/uc?id=1sATPrWrtpApDsvAB_eUP6WGuA0PJmYgO';
 
-const lamp_png = 'https://drive.google.com/uc?id=128DySXhU5Wa65ci2fbtKjZ0TO-gwYrFb';
+const lamp_png = 'https://drive.google.com/uc?id=1aNR08liSeUoaeIumnKcb9QETIEOftkKg';
 
-const rsvi_logo = 'https://drive.google.com/uc?id=11Y444QttMwxHmcrWMl-m1bz5N4T47oyC';
+const rsvi_logo = 'https://drive.google.com/uc?id=165lGw6lMAl5cHZGQGFy9sE5H4abB8phd';
 
-const capsule_image = 'https://drive.google.com/uc?id=1iee21UDdgK4iQMoSMcmMjJ4vLGlDhCSR';
+const capsule_image = 'https://drive.google.com/uc?id=1bRIZCKNbHEdWAEbs_g2gkswDaX38xCg2';
 
-const volunteerIcon = 'https://drive.google.com/uc?id=1cdaBlO7dGUpOSkmwzey7aAEjQ3SEE4hj';
-const mikeIcon = 'https://drive.google.com/uc?id=1ijyuIIVl1Ya2XR4ShTvcb8pQBFT6j24v';
-const internIcon = 'https://drive.google.com/uc?id=1HTvqP8If4BbVj2zmxiTFlSQe3V2Iupzo';
-const impairedIcon = 'https://drive.google.com/uc?id=1LLknsuK_noSVW3eme744FGhcdfojQagR';
-const healthIcon = 'https://drive.google.com/uc?id=1EmfZuOhKKAcE7DlMe8W7YSdJdpB_5VK8';
-const eyeIcon = 'https://drive.google.com/uc?id=1tCBT460kvsack-TbGan0zEUnOtUOEC5_';
-const deviceIcon = 'https://drive.google.com/uc?id=1zqJgNMIgX5YNloq4T3mKV3gZhASgBZ1l';
-const bookIcon = 'https://drive.google.com/uc?id=1lcnOB73ALhpZXhJx_pmiSDQCTSOlz8MC';
+const volunteerIcon = 'https://drive.google.com/uc?id=1tUiVCetNqSFqfpnc7io8JXo9AcbjUltC';
+const mikeIcon = 'https://drive.google.com/uc?id=1zQOXAMt3jnGn9WnOAd5LmL4iwRaKuOFw';
+const internIcon = 'https://drive.google.com/uc?id=1NOJdCv5IMN_tbrSJOX-TQ2ew9a0YGdGE';
+const impairedIcon = 'https://drive.google.com/uc?id=1716ICJApZDDAQ-c9Sd1tec0LOEMkaKK1';
+const healthIcon = 'https://drive.google.com/uc?id=1W3Fu_mIIRzXEG7A0NYeGlaPtvgwH9smp';
+const eyeIcon = 'https://drive.google.com/uc?id=1vhc_luQzXZcH7kFYXDOcc6HO-u9vIg-i';
+const deviceIcon = 'https://drive.google.com/uc?id=1Ak65PuU-Xwj8uZIscxsLH7sq2qeFDAdJ';
+const bookIcon = 'https://drive.google.com/uc?id=1CKrtcCH_TQPut3RKWDAzViTSoZ8vN1Ve';
 
 export {yellow_background, red_background, green_background, blue_background,
     rsvi_logo, capsule_image, lamp_png,
