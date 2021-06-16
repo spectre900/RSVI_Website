@@ -29,6 +29,7 @@
     font-size: max(1.5vw, 20px);
     color: rgb(100, 100, 100);
 
+    text-align: justify;
     margin-top: max(5vh, 30px);
     margin-bottom: max(5vh, 30px);
 }
