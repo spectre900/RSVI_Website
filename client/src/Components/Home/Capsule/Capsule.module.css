@@ -1,0 +1,54 @@
+.body{
+
+    margin-bottom: 100px;
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.holder{
+    text-align: center;
+}
+
+.content{
+    margin: auto;
+    text-align: center;
+}
+
+.image{
+    width: min(100%, 550px);
+}
+
+.heading{
+    margin-top: 20px;
+    font-size: max(3.5vw, 35px);
+    color: rgb(70, 70, 70);
+}
+
+.description{
+    font-size: max(1.5vw, 20px);
+    color: rgb(100, 100, 100);
+
+    text-align: justify;
+    margin-top: max(5vh, 30px);
+    margin-bottom: max(5vh, 30px);
+}
+
+.button{
+    color: rgb(80, 80, 80);
+    font-size: max(1.5vw, 20px);
+
+    border-style: none;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background: none;
+    background-image: url('https://drive.google.com/uc?id=1tKJz1WQDY4CdXtPVnsIj4quqEkHMAjSL');
+}

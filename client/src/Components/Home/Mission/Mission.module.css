@@ -1,5 +1,5 @@
 .holder{
-    background-image: url('./Images/Backgrounds/blue.png');
+    background-image: url('https://drive.google.com/uc?id=1sATPrWrtpApDsvAB_eUP6WGuA0PJmYgO');
 }
 
 .content{
@@ -15,11 +15,11 @@
     background-size: 50% 100%;
     background-repeat: no-repeat;
     background-position-x: right;
-    background-image: url('./Images/Icons/lamp.png');
+    background-image: url('https://drive.google.com/uc?id=1aNR08liSeUoaeIumnKcb9QETIEOftkKg');
 }
 
 .heading{
-    font-size: max(7vh,60px);
+    font-size: max(3.5vw,45px);
     font-weight: bold;
     color: rgb(70, 70, 70);
 }
@@ -33,7 +33,7 @@
 }
 
 .para1, .para2{
-    font-size: max(3vh,25px);
+    font-size: max(1.65vw,20px);
     font-style: normal;
 }
 
@@ -43,12 +43,13 @@
     }
 
     .heading{
-        font-size: 50px;
+        font-size: 45px;
         text-align: center;
     }
 
     .para1, .para2{
         width: 100%;
-        text-align: center;
+        text-align: justify;
+        text-justify: distribute;
     }
 }

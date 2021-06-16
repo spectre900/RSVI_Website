@@ -1,0 +1,37 @@
+import React, { Component } from 'react';
+
+import { capsule_image } from '../Links';
+import { red_background } from '../Links';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Row, Col, Container, Button} from 'react-bootstrap';
+import styles from './Capsule.module.css';
+
+class Capsule extends Component {
+    render() {
+        return (
+            <Container fluid className={styles.body}>
+                <Row>
+                    <Col xl={6} className={styles.holder}>
+                        <img src={capsule_image} className={styles.image}/>
+                    </Col>
+                    <Col xl={6} className={styles.content}>
+                        <p className={styles.heading}>
+                            RVSI INFO-CAPSULE
+                        </p>
+                        <p className={styles.description}>
+                            RSVI aims to establish its presence and awareness through digital platforms,  
+                            launched RSVI Info Capsule, which is an audio initiative to spread learning and development 
+                            through digital platforms like whatsapp where Visually Impaired accross the globe are connected.
+                        </p>
+                        <Button className={styles.button} >
+                            Sign up for the podcast now!
+                        </Button>
+                    </Col>
+                </Row>
+            </Container>
+        );
+    }
+}
+
+export default Capsule;

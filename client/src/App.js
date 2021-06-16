@@ -6,8 +6,7 @@ import Footer from './Components/Footer/Footer';
 import WhatWeDo  from './Components/Home/WorksComp/WhatWeDo';
 import AboutUs from './Components/AboutUs/AboutUs';
 
-
-/* function App() {
+function App() {
   return (
     <Router>
     <div>
@@ -20,17 +19,19 @@ import AboutUs from './Components/AboutUs/AboutUs';
     </div>
     </Router>
   );
-} */
-
-function App() {
-  return (
-    <Router>
-    <div>
-      <Header />
-      <AboutUs />
-      <Footer />
-    </div>
-    </Router>
-  );
 }
+
 export default App;
+
+// function App() {
+//   return (
+//     <Router>
+//     <div>
+//       <Header />
+//       <AboutUs />
+//       <Footer />
+//     </div>
+//     </Router>
+//   );
+// }
+// export default App;
