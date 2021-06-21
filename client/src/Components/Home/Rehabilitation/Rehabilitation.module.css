@@ -35,8 +35,8 @@
   padding-right: 10%;
   
   line-height: 2;
-  text-align: center;
-  font-size: max(1.6vw,18px);
+  text-align: justify;
+  font-size: max(1.6vw,16px);
 }
 
 .logo{
