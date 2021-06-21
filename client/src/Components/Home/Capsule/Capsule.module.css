@@ -21,22 +21,22 @@
 
 .heading{
     margin-top: 20px;
-    font-size: max(3.5vw, 35px);
+    font-size: max(3.5vw, 30px);
     color: rgb(70, 70, 70);
 }
 
 .description{
-    font-size: max(1.5vw, 20px);
+    font-size: max(1.6vw, 18px);
     color: rgb(100, 100, 100);
 
-    text-align: justify;
+    text-align: center;
     margin-top: max(5vh, 30px);
     margin-bottom: max(5vh, 30px);
 }
 
 .button{
     color: rgb(80, 80, 80);
-    font-size: max(1.5vw, 20px);
+    font-size: max(1.6vw, 18px);
 
     border-style: none;
 

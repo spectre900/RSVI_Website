@@ -1,0 +1,52 @@
+.body{
+    margin-bottom: 100px;
+}
+
+.imageholder{
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.image{
+    width: 100%;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon{
+    width: max(80%, 20px);
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.textholder{
+    padding: 1.25%;
+    text-align: center;
+    background-image: url('https://drive.google.com/uc?id=11ZKzHqt_GPZeXzHr50uHs9Rt39wSPh5A');
+}
+
+.text{
+    margin: 0;
+    font-size: max(2.5vw, 25px);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+    .imageholder{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .body{
+        margin-bottom: 50px;
+    }
+    .icons{
+        display: none;
+    }
+}

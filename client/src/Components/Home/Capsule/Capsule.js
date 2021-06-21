@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 
 import { capsule_image } from '../Links';
-import { red_background } from '../Links';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Row, Col, Container, Button} from 'react-bootstrap';
+import {Row, Col, Container} from 'react-bootstrap';
 import styles from './Capsule.module.css';
 
 class Capsule extends Component {
@@ -20,13 +19,15 @@ class Capsule extends Component {
                             RVSI INFO-CAPSULE
                         </p>
                         <p className={styles.description}>
-                            RSVI aims to establish its presence and awareness through digital platforms,  
-                            launched RSVI Info Capsule, which is an audio initiative to spread learning and development 
-                            through digital platforms like whatsapp where Visually Impaired accross the globe are connected.
+                            RSVI aims to establish its presence and awareness 
+                            through digital platforms, launched RSVI Info Capsule, 
+                            which is an audio initiative to spread learning and 
+                            development through digital platforms like WhatsApp 
+                            where Visually Impaired across the globe are connected.
                         </p>
-                        <Button className={styles.button} >
+                        <button className={styles.button} >
                             Sign up for the podcast now!
-                        </Button>
+                        </button>
                     </Col>
                 </Row>
             </Container>

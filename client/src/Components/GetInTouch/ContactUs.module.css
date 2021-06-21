@@ -1,4 +1,5 @@
 .body{
+    margin-bottom: 100px;
     background-image: url('https://drive.google.com/uc?id=1tKJz1WQDY4CdXtPVnsIj4quqEkHMAjSL');
 }
 
@@ -7,7 +8,7 @@
 }
 
 .heading{
-    font-size: max(2.5vw, 30px);
+    font-size: max(2.5vw, 25px);
     font-weight: bold;
 }
 
