@@ -20,22 +20,22 @@ class Header extends Component {
                 <Navbar.Toggle aria-controls='navbar-nav'/>
                 <Navbar.Collapse id='navbar-nav' className={styles.navlinkbar}>
                     <Nav className='mr-auto w-100' justify='true'>
-                    <NavLink exact href='#home' className={styles.navlink}>
+                    <NavLink exact href='/' className={styles.navlink}>
                         HOME
                     </NavLink>
-                    <NavLink href='#about-us' className={styles.navlink}>
+                    <NavLink href='/about-us' className={styles.navlink}>
                         ABOUT US
                     </NavLink>
-                    <NavLink href='#internship' className={styles.navlink}>
+                    <NavLink href='/internship' className={styles.navlink}>
                         INTERNSHIP
                     </NavLink>
-                    <NavLink href='#initiatives' className={styles.navlink}>
+                    <NavLink href='/initiatives' className={styles.navlink}>
                         INITIATIVES
                     </NavLink>
-                    <NavLink href='#faq' className={styles.navlink}>
+                    <NavLink href='/faq' className={styles.navlink}>
                         FAQ's
                     </NavLink>
-                    <NavLink href='#get-in-touch' className={styles.navlink}>
+                    <NavLink href='/get-in-touch' className={styles.navlink}>
                         GET IN TOUCH
                     </NavLink>
                     </Nav>
