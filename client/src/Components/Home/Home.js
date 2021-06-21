@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import Collaboration from './Collaboration';
-import Rehabilitation from './Rehabilitation/Rehabilitation';
+
 import Mission from './Mission/Mission';
 import Journey from './Journey/Journey';
 import Capsule from './Capsule/Capsule';
+import Rehabilitation from './Rehabilitation/Rehabilitation';
+
 import Success from './Success';
+import Work from './WorksComp/Work';
 import {SliderData} from './SliderData';
 import ImageSlider from './ImageSlider';
-import Work from './WorksComp/Work';
+import Collaboration from './Collaboration';
 
 
 class Home extends Component {

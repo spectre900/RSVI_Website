@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Icon from './Images/rsvi_name.png'
+import { rsvi_logo } from './Links';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Nav, Navbar, NavLink} from 'react-bootstrap';
@@ -12,7 +12,10 @@ class Header extends Component {
         return (
             <Navbar expand='xxl' className={styles.navbar}>
                 <Navbar.Brand className={styles.navbrand}>
-                    <img src={Icon} alt='rsvi logo' className={styles.navicon}/>
+                    <img src={rsvi_logo} alt='rsvi logo' className={styles.brandicon}/>
+                    <p className={styles.brandname}>
+                        Rehabilitation Society of the Visually Impaired
+                    </p>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls='navbar-nav'/>
                 <Navbar.Collapse id='navbar-nav' className={styles.navlinkbar}>
