@@ -1,6 +1,6 @@
 import Home from './Components/Home/Home';
 import Header from './Components/Header/Header';
-// import ContactUs from './Components/GetInTouch/GetInTouch';
+import GetInTouch from './Components/GetInTouch/GetInTouch';
 
 import Internship from "./Components/Internship/Internship";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -46,7 +46,7 @@ class App extends Component {
       <Router>
         <div>
           <Header />
-          <Home />
+          <GetInTouch />
         </div>
       </Router>
     )

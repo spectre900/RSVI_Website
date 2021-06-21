@@ -1,0 +1,138 @@
+.body{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+    background-image: url('https://drive.google.com/uc?id=1tKJz1WQDY4CdXtPVnsIj4quqEkHMAjSL');
+}
+
+.holder{
+    margin: 0;
+    padding: max(5%, 15px);
+}
+
+.heading{
+    margin: 0;
+    padding: 0;
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin-bottom: 1vw;
+}
+
+.form{
+    margin: 0;
+    padding: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.input{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 0.5vw;
+    font-size: 1vw;
+    margin-bottom: 1.2vw;
+}
+
+.textbox{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 16vw;
+    padding: 0.5vw;
+    font-size: 1vw;
+    margin-bottom: 1.2vw;
+}
+
+.submit{
+    margin: 0;
+    padding: 0;
+    float: right;
+    padding: 0.4vw;
+    font-weight: bold;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    border-radius: 2.5vw;
+    border-style: hidden;
+    background-color: white;
+}
+
+.submit:active{
+    border-style: solid;
+}
+
+.details{
+    margin: 0;
+    padding: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.content{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+}
+
+.email{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-bottom: 1vw;;
+}
+
+.map{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 21vw;
+}
+
+@media screen and (max-width: 992px){
+
+    .heading{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .input{
+        padding: 5px;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    
+    .textbox{
+        height: 300px;
+        padding: 5px;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    
+    .submit{
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+    }
+    
+    .details{
+        margin-top: 30px;
+    }
+    
+    .content{
+        font-size: 18px;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+    
+    .email{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .map{
+        height: 350px;
+    }
+}

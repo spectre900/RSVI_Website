@@ -5,20 +5,20 @@ import {Row, Col, Container} from 'react-bootstrap';
 
 import styles from './InTouch.module.css';
 
-import image from './image.jpg';
-
-import youtube from './youtube.png';
-import twitter from './twitter.png';
-import facebook from './facebook.png';
-import instagram from './instagram.png';
+import { inTouch } from '../Links';
+import { facebook } from '../Links';
+import { twitter } from '../Links';
+import { youtube } from '../Links';
+import { instagram } from '../Links';
 
 class InTouch extends Component {
     render() {
         return (
             <Container fluid className={styles.body}>
                 <Row className={styles.imageholder}>
-                    <Col lg={11}>
-                        <img src={image} className={styles.image}/>
+                    <Col lg={1} />
+                    <Col lg={10} className={styles.col}>
+                        <img src={inTouch} className={styles.image}/>
                     </Col>
                     <Col lg={1} className={styles.icons}>
                         <img src={youtube} className={styles.icon} />
