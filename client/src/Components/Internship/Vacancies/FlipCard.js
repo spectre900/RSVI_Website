@@ -6,11 +6,11 @@ import CardContentBack from "./CardContentBack";
 
 function FlipCard(params) {
 
-  return (<Flippy flipOnHover={true} flipOnClick={true} flipDirection="horizontal" className={Style.card}>
+  return (<Flippy flipOnHover={true} flipOnClick={true} flipDirection={params.dir} className={Style.card}>
     <FrontSide animationDuration="300">
       <CardContentFront image={params.img} heading={params.head}/>
     </FrontSide>
-    <BackSide animationDuration="300"><CardContentBack/></BackSide>
+    <BackSide animationDuration="300"><CardContentBack about={params.info}/></BackSide>
   </Flippy>)
 }
 
