@@ -1,0 +1,133 @@
+.content {
+    background-color: white;
+    color: black;
+  }
+
+  .card {
+    border-radius: 100%;
+    margin-bottom: 3%; 
+  }
+  
+  .image {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+  }
+
+  .theBack {
+    height: 100%;
+    background-color: #ecf0f1;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .heading {
+    margin: 0%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+
+  .backPara {
+    text-align: center;
+    margin: 0%;
+    background-color: #ecf0f1;
+  }
+
+  
+
+  .imge{
+    height: 460px;
+    width: auto;
+  }
+
+  .imgo{
+    height: 290px;
+    width: auto;
+  }
+
+
+  /*.para {
+    text-align: center;
+    font-size: small;
+  }
+  
+  .rule {
+    width: 10%;
+    margin: 0 auto;
+    border: none;
+    border-top: 6px solid black;
+    opacity: 1;
+  }*/
+
+  @media only screen and (max-width: 1000px) {
+    .imgs{
+      display: contents;
+      overflow: hidden;
+      float: left;
+      height:100%;
+      width: 10%;
+      margin-bottom: 20px;
+    }
+    .imge{
+      display: contents;
+      overflow: hidden;
+      float: none;
+      height: 100px;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .imgo{
+      display: contents;
+      overflow: hidden;
+      float: none;
+      height: 150px;
+      width: 100%;
+    }
+    .card{
+      width: 100%;
+      height: 100%;
+      display: contents;
+      overflow: hidden;
+      margin: 0 20px 50px 10px;
+      
+    }
+    .image {
+      display:inline-block;
+      margin: 0 auto;
+      height: auto;
+      width: 90%;
+      padding: 0;
+    }
+    .theBack {
+      height: 100%;
+      width: 90%;
+      margin: auto;
+      background-color: #ecf0f1;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .heading {
+      margin: 0%;
+      padding-top: 20px;
+      padding-bottom: 0px;
+      text-align: center;
+    }
+    .backPara {
+      text-align: center;
+      margin: 0%;
+      padding: 20px;
+      background-color: #ecf0f1;
+    }
+    
+  }
+  
+  
+
+  
+
