@@ -12,7 +12,7 @@ const Success = () => {
         <div className={styles.text_1} >
           <div className={styles.text_border1} >
             <h1>Media Coverage</h1>
-            <p>A small description about the activities Lorem ipsum dolor sit amet, consectetur adipiscing elit Interger tristique pellentesque dignissi. Nam eget molestie tortor. Ut at placerat ex Suspendisse potenti.</p>
+            <p>RSVI has been part of many media coverage. It has its presence in renowned newspapers, news channel , social media and many media partners. It's media coverage is worth watching and Inspiring.</p>
           </div>
           
         </div>
@@ -21,7 +21,7 @@ const Success = () => {
         <div className={styles.text_2}>
           <div className={styles.text_border2}>
             <h1>Success Stories</h1>
-            <p>A small description about the activities Lorem ipsum dolor sit amet, consectetur adipiscing elit Interger tristique pellentesque dignissi. Nam eget molestie tortor. Ut at placerat ex Suspendisse potenti.</p>
+            <p>RSVI has given many beautiful gems and their success stories are awe - Inspiring. They have been an inspiration for many and proved that a dream doesn't need a vision, what it needs is determination and passion.</p>
           </div>
           
         </div>

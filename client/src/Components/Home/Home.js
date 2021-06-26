@@ -1,35 +1,36 @@
 import React, { Component } from 'react';
-import Collaboration from './Collaboration';
+import Collaboration from './Collaboration/Collaboration';
 import Rehabilitation from './Rehabilitation/Rehabilitation';
 import Mission from './Mission/Mission';
 import Journey from './Journey/Journey';
 import Capsule from './Capsule/Capsule';
-import Success from './Success';
+import Success from './SuccessMedia/Success';
 import {SliderData} from './SliderData';
 import ImageSlider from './ImageSlider';
 import Work from './WorksComp/Work';
+import Activity from './Activity/Activity';
 
+ class Home extends Component {
+     render() {
+         return (
+             <div>
+                 <ImageSlider slides={SliderData}/>
+                 <Rehabilitation />
+                 <Work />
+                 <Activity />
+                 <Journey />
+                 <Mission />
+                 <Success/>
+                 <Capsule />
+                 <Collaboration/>
+             </div>
+         );
+     }
+ }
 
-// class Home extends Component {
-//     render() {
-//         return (
-//             <div>
-//                 <ImageSlider slides={SliderData}/>
-//                 <Rehabilitation />
-//                 <Work />
-//                 <Journey />
-//                 <Mission />
-//                 <Success/>
-//                 <Capsule />
-//                 <Collaboration/>
-//             </div>
-//         );
-//     }
-// }
+export default Home;
 
-// export default Home;
-
-class Home extends Component {
+/*class Home extends Component {
     render() {
         return (
             <div>
@@ -43,3 +44,4 @@ class Home extends Component {
 }
 
 export default Home;
+*/

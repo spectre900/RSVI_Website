@@ -10,28 +10,28 @@ const WorkData = [
     imgsrc: `${WorkImg1}`,
     imgbg: `${Red}`,
     title: "Activity1",
-    linkto: "/WhatWeDo#first",
+    linkto: "/work#first",
   },
   {
     id: "2",
     imgsrc: `${WorkImg2}`,
     imgbg: `${yellow}`,
     title: "Activity2",
-    linkto: "/WhatWeDo#second",
+    linkto: "/work#second",
   },
   {
     id: "3",
     imgsrc: `${WorkImg3}`,
     imgbg: `${green}`,
     title: "Activity3",
-    linkto: "/WhatWeDo#third",
+    linkto: "/work#third",
   },
   {
     id: "4",
     imgsrc: `${WorkImg4}`,
     imgbg: `${blue}`,
     title: "Activity4",
-    linkto: "/WhatWeDo#fourth",
+    linkto: "/work#fourth",
   },
 ];
 
