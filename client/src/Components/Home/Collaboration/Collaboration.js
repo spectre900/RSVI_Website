@@ -1,7 +1,7 @@
 import React from 'react';
 import Styles from "./Collaboration.module.css";
 import cn from "classnames";
-import globalS from "../../Assets/Global-Styles/bootstrap.min.module.css"
+import globalS from "../../../Assets/Global-Styles/bootstrap.min.module.css"
 
 function Collaboration() {
     return (
@@ -17,7 +17,7 @@ function Collaboration() {
                     </div>
                 </div>
                 <div className={cn(Styles.text)}>
-                    <p className={cn(Styles.para2)}>A small description about collaborations Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique pellentesque dignissim. Nam eget molestie tortor. Ut at placerat ex. Suspendisse potenti. </p>
+                    <p className={cn(Styles.para2)}>RSVI has been successful in humungous collaborations till date for its visibility and reach. Majorly being  Rehabilitation Council Of India (RCI) New Delhi , NIVH for the distribution of Aids & Appliances, Agency of advocacy cell in Uttar Pradesh being run by All India Confederation of the Blind (AICB).Besides receiving support and technical expertise from a number of Organizations, RSVI joins hands with SAKSHAM New Delhi, NAB (Along with its various States and district branches), Arushi Bhopal, Score Foundation New Delhi and very recently collaborated with Uber India.</p>
                 </div>
             </div>
             <div className={cn(Styles.imgs , globalS["col-lg-5"], globalS["col-md-5"], globalS["col-sm-12"])}>
