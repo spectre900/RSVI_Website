@@ -10,6 +10,7 @@ import Footer from './Components/Footer/Footer';
 
 /* import Internship from "./Components/Internship/Internship"; */
 
+
 function App() {
   return (
     <Router>
