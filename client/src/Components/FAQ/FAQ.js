@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import FAQs from './FAQs/FAQs';
 import FAQImage from './FAQImage/FAQImage';
+import Faqsection from './Faqsection/Faqsection';
 import ToContactUs from './ToContactUs/ToContactUs';
 
 class FAQ extends Component {
@@ -9,7 +9,7 @@ class FAQ extends Component {
         return (
             <div>
                 <FAQImage />
-                <FAQs />
+                <Faqsection />
                 <ToContactUs />
             </div>
         )
