@@ -1,10 +1,11 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import WhatWeDo  from './Components/Home/WorksComp/WhatWeDo';
 import ActivityChild from './Components/Home/Activity/ActivityChild';
 import AboutUs from './Components/AboutUs/AboutUs';
+import Faqs from './Components/Faqs/Faqs';
 import GetInTouch from './Components/GetInTouch/GetInTouch';
 import Footer from './Components/Footer/Footer';
 
@@ -20,7 +21,8 @@ function App() {
          <Route path='/work/' component={WhatWeDo}/>
          <Route exact path="/ActivityChild" component={ActivityChild}/>
          <Route exact path='/about-us' component={AboutUs} />
-         <Route exact path='/get-in-touch' component={GetInTouch} />
+         <Route exact path='/faqs' component={Faqs} />
+ <Route exact path='/get-in-touch' component={GetInTouch} />
          <Route exact path='/internship' component={Internship} />
       </Switch>
       <Footer />
