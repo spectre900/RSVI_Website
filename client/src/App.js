@@ -11,7 +11,7 @@ import WhatWeDo  from './Components/Home/WorksComp/WhatWeDo';
 import ActivityChild from './Components/Home/Activity/ActivityChild';
 import SuccessChild from './Components/Home/SuccessMedia/SuccessChild/SuccessChild';
 
-// import Internship from "./Components/Internship/Internship";
+import Internship from "./Components/Internship/Internship";
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
           <Route exact path='/about-us' component={AboutUs} />
           <Route exact path='/faqs' component={FAQ} />
           <Route exact path='/get-in-touch' component={GetInTouch} />
-          {/* <Route exact path='/internship' component={Internship} /> */}
+          <Route exact path='/internship' component={Internship} />
         </Switch>
         <Footer />
       </div>
