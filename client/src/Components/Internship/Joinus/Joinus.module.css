@@ -59,7 +59,7 @@ form {
   font-size: 1.7vw;
   margin-top: 4%;
 }
-input {
+.input {
   width: 25vw;
   height: 32px;
   position: relative;
