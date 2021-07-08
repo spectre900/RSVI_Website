@@ -28,6 +28,7 @@ function App() {
           <Route exact path='/get-in-touch' component={GetInTouch} />
           {/* <Route exact path='/internship' component={Internship} /> */}
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
