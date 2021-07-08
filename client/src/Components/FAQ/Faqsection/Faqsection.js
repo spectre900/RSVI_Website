@@ -58,14 +58,14 @@ export default class App extends Component {
     return (
       <>
       <div>
-      <p className={styles.p}>Got a Question?   We are here to answer.</p>
-</div>
+            <p className={styles.p}>Got a Question?   We are here to answer.</p>
+      </div>
       <div className={styles.div}>
         <Faq data={data}
         styles={{
                 rowTitleColor: "#00BCD4",
-                rowTitleTextSize: '25px',
-                rowContentTextSize: '20px'
+                rowTitleTextSize: 'max(1.3vw, 16px)',
+                rowContentTextSize: 'max(1.1vw, 15px)',
             }}
         />
       </div>
