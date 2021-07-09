@@ -4,27 +4,27 @@
 }
 
 #title {
-    font-weight: bold;
     font-size  : 2.5vw;
     margin-top : 3%;
+    font-family: "Open Sans", sans-serif;
 }
 
 .hr1 {
     border-top: 4px solid black;
-    width     : 42%;
+    width     : 41%;
     margin-top: -2%;
 }
 
 #leftLine {
     float      : left;
     margin-left: -24%;
-    margin-top: -2%;
+    margin-top: -2.5%;
 }
 
 #rightLine {
     float       : right;
     margin-right: -24%;
-    margin-top: -2%;
+    margin-top: -2.5%;
 }
 
 .content {
@@ -72,12 +72,12 @@
     #title {
         font-weight: bold;
         width      : 100%;
-        font-size  : 170%;
+        font-size  : 155%;
     }
 
     .content {
         margin-top : 0%;
-        font-size  : 4.5vw;
+        font-size  : 4vw;
         padding-top: 4%;
         padding: 2%;
     }

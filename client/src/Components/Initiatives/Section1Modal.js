@@ -41,4 +41,5 @@ const Section1Modal = (props) => {
     </div>
   );
 };
+
 export default Section1Modal;

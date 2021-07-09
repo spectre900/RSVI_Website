@@ -26,4 +26,3 @@ const Section5Data = [
   ];
   
   export default Section5Data;
-  
