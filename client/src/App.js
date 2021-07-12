@@ -10,7 +10,7 @@ import Footer from './Components/Footer/Footer';
 import WhatWeDo  from './Components/Home/WorksComp/WhatWeDo';
 import ActivityChild from './Components/Home/Activity/ActivityChild';
 import SuccessChild from './Components/Home/SuccessMedia/SuccessChild/SuccessChild';
-
+import Initiatives from './Components/Initiatives/Initiatives';
 import Internship from "./Components/Internship/Internship";
 
 function App() {
@@ -27,6 +27,7 @@ function App() {
           <Route exact path='/faqs' component={FAQ} />
           <Route exact path='/get-in-touch' component={GetInTouch} />
           <Route exact path='/internship' component={Internship} />
+          <Route exact path='/initiatives' component={Initiatives} />
         </Switch>
         <Footer />
       </div>
